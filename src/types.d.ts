@@ -4,6 +4,18 @@ type ComposerActionFormResponse = {
     url: string;    // Form URL to embed in client 
 }
 
+type ComposerActionMetadata = {
+    type: "composer";    // Must be 'composer'
+    name: string;        // Maximum 14 characters
+    icon: string;        // Valid Octicon. See cast actions spec.
+    description: string; // Maximum 20 characters
+    imageUrl: string;    // Remote image URL
+    aboutUrl?: string;   // Optional "about" page URL
+    action: {
+        type: "post";      // Same as cast actions spec
+    }
+}
+
 type ComposerActionState = {
   cast: { 
     parent?: string;  // Cast parent hash

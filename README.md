@@ -2,6 +2,8 @@
 
 built by [@samuellhuber](https://warpcast.com/samuellhuber)
 
+Learn how to build Cast Composer Actions: [here in the dTech docs](https://dtech.vision/farcaster/miniapps/quickstart-farcaster-composer-actions/)
+
 ## Testing
 
 To test your composer action host it on the internet and go to the [Warpcast Debugger](https://warpcast.com/~/developers/composer-actions)
