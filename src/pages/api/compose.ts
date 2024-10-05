@@ -18,7 +18,7 @@ export default function handler(
     res.status(200).json({
         "type": "composer",
         "name": "Create Poll",
-        "icon": "checkbox", // supported list: https://docs.farcaster.xyz/reference/actions/spec#valid-icons
+        "icon": "check", // supported list: https://docs.farcaster.xyz/reference/actions/spec#valid-icons
         "description": "Create a poll frame",
         "aboutUrl": "https://your-app-server.example.com/about",
         "imageUrl": "https://your-app-server.example.com/static/logo.png",
